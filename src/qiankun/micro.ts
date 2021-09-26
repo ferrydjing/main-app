@@ -1,6 +1,5 @@
 import router from '../router';
 // 子应用列表
-console.log(111, process.env.VUE_APP_MICRO1);
 const microApps = [
     {
         name: 'micro1',
