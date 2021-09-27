@@ -69,7 +69,29 @@ define('./service-worker.js', ['./workbox-2fb64657'], function (e) {
                 },
                 { url: '/main-app/static/js/about.4e4df617.js', revision: null },
                 { url: '/main-app/static/js/app.7a430a91.js', revision: null },
-                { url: '/main-app/static/js/chunk-vendors.495c790a.js', revision: null }
+                { url: '/main-app/static/js/chunk-vendors.495c790a.js', revision: null },
+                {
+                    url: '/micro-app/precache-manifest.57402ca50c0f5bb67a8dec07a8eec3bf.js',
+                    revision: '57402ca50c0f5bb67a8dec07a8eec3bf'
+                },
+                { url: '/micro-app/robots.txt', revision: 'b6216d61c03e6ce0c9aea6ca7808f7ca' },
+                {
+                    url: '/micro-app/service-worker.js',
+                    revision: 'e50001f5be7cb7f3eabd2d965dde86be'
+                },
+                { url: '/micro-app/static/css/chunk-vendors.65a817fc.css', revision: null },
+                {
+                    url: '/micro-app/static/fonts/element-icons.535877f5.woff',
+                    revision: '535877f50039c0cb49a6196a5b7517cd'
+                },
+                {
+                    url: '/micro-app/static/fonts/element-icons.732389de.ttf',
+                    revision: '732389ded34cb9c52dd88271f1345af9'
+                },
+                { url: '/micro-app/static/js/app.ba54b474.js', revision: null },
+                { url: '/micro-app/static/js/chunk-vendors.868a4567.js', revision: null },
+                { url: '/micro-app/static/js/page1.0ff8e045.js', revision: null },
+                { url: '/micro-app/static/js/page2.7ab75b35.js', revision: null }
             ],
             {}
         ),
