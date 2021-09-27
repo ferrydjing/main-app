@@ -43,7 +43,7 @@ if (!self.define) {
             }));
     };
 }
-define('./service-worker.js', ['./workbox-2fb64657', '/micro-app/workbox-a244db4c'], function (e) {
+define('./service-worker.js', ['./workbox-2fb64657'], function (e) {
     'use strict';
     e.setCacheNameDetails({ prefix: 'sw-cache-main-app' }),
         self.skipWaiting(),
