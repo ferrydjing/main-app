@@ -1,10 +1,10 @@
 <template>
     <div id="app">
-        v1.0.123
+        v1.0.1
         <div id="nav">
             <router-link to="/">Home</router-link> | <router-link to="/about">About</router-link> |
-            <el-button type="text" @click="toPage('/micro1/page1')">micro1 page1</el-button> |
-            <el-button type="text" @click="toPage('/micro1/page2')">micro1 page2</el-button>
+            <router-link to="/micro1Page1">micro1 page1</router-link> |
+            <router-link to="/micro1Page2">micro1 page2</router-link>
         </div>
         <router-view />
         <div id="micro-container"></div>
