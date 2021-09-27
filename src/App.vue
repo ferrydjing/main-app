@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        v1.0.3
+        v1.0.4
         <div id="nav">
             <router-link to="/">Home</router-link> | <router-link to="/about">About</router-link> |
             <router-link to="/micro1Page1">micro1 page1</router-link> |
