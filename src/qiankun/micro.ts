@@ -4,7 +4,7 @@ const microApps = [
     {
         name: 'micro1',
         entry: process.env.VUE_APP_MICRO1,
-        activeRule: `${process.env.BASE_URL}/micro1`,
+        activeRule: `/micro1`,
         container: '#micro-container'
     }
 ];

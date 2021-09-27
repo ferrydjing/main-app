@@ -5,7 +5,7 @@ const { GenerateSW } = require('workbox-webpack-plugin');
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const TerserPlugin = require('terser-webpack-plugin');
 
-const BASE_URL = process.env.NODE_ENV === 'production' ? '/main-app' : '/';
+const BASE_URL = process.env.NODE_ENV === 'production' ? '/main-app' : '/main-app';
 module.exports = {
     publicPath: BASE_URL,
     lintOnSave: true,
