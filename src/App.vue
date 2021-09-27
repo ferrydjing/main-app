@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        v1.0.1
+        v1.0.123
         <div id="nav">
             <router-link to="/">Home</router-link> | <router-link to="/about">About</router-link> |
             <el-button type="text" @click="toPage('/micro1/page1')">micro1 page1</el-button> |
